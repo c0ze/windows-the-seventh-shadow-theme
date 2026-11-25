@@ -1,0 +1,85 @@
+; The Seventh Shadow: a Windows theme
+; Industrial gothic doom on a frozen lake. Ophelia, from The 7th Shadow's video "The Beast in the Baud".
+; Ported from the Omarchy theme c0ze/omarchy-the-seventh-shadow-theme. https://the7th-shadow.arda.tr
+;
+; Dark mode, the vein cyan (#6FD3F0) as the accent, and the seven 4K stills as a slideshow that moves on every
+; ten minutes, like the Omarchy rotation timer. The pictures live where Windows unpacks the .deskthemepack:
+; %LOCALAPPDATA%\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground (install.ps1 uses the same place).
+
+[Theme]
+DisplayName=The Seventh Shadow
+ThemeId={70F78FAF-974F-4F0D-B2D5-302570F80012}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\System32\imageres.dll,-54
+Empty=%SystemRoot%\System32\imageres.dll,-55
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\cursors\aero_working.ani
+Arrow=%SystemRoot%\cursors\aero_arrow.cur
+Crosshair=
+Hand=%SystemRoot%\cursors\aero_link.cur
+Help=%SystemRoot%\cursors\aero_helpsel.cur
+IBeam=
+No=%SystemRoot%\cursors\aero_unavail.cur
+NWPen=%SystemRoot%\cursors\aero_pen.cur
+SizeAll=%SystemRoot%\cursors\aero_move.cur
+SizeNESW=%SystemRoot%\cursors\aero_nesw.cur
+SizeNS=%SystemRoot%\cursors\aero_ns.cur
+SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
+SizeWE=%SystemRoot%\cursors\aero_ew.cur
+UpArrow=%SystemRoot%\cursors\aero_up.cur
+Wait=%SystemRoot%\cursors\aero_busy.ani
+DefaultValue=Windows Default
+DefaultValue.MUI=@main.cpl,-1020
+
+[Control Panel\Desktop]
+Wallpaper=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\1-storm.jpg
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+
+[Slideshow]
+Interval=600000
+Shuffle=0
+ImagesRootPath=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground
+Item0Path=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\1-storm.jpg
+Item1Path=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\2-ember-shoulder.jpg
+Item2Path=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\3-snow-profile.jpg
+Item3Path=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\4-bare-back.jpg
+Item4Path=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\5-reclining.jpg
+Item5Path=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\6-portrait.jpg
+Item6Path=%USERPROFILE%\AppData\Local\Microsoft\Windows\Themes\TheSeventhShadow\DesktopBackground\7-through-ice.jpg
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC46FD3F0
+SystemMode=Dark
+AppMode=Dark
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=@%SystemRoot%\System32\mmres.dll,-800

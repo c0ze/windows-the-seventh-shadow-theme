@@ -1,0 +1,43 @@
+{
+  "schemes": [
+    {
+      "name": "The Seventh Shadow",
+      "background": "#0B0C0E",
+      "foreground": "#C9CCCF",
+      "cursorColor": "#6FD3F0",
+      "selectionBackground": "#1C2A33",
+      "black": "#14171B",
+      "red": "#D2526A",
+      "green": "#6FBF9B",
+      "yellow": "#C9A66B",
+      "blue": "#6C9DCB",
+      "purple": "#B07A93",
+      "cyan": "#6FD3F0",
+      "white": "#C9CCCF",
+      "brightBlack": "#6B7178",
+      "brightRed": "#E97F93",
+      "brightGreen": "#93D7B7",
+      "brightYellow": "#E3C48E",
+      "brightBlue": "#9CC3EA",
+      "brightPurple": "#C99BB1",
+      "brightCyan": "#A8E6F7",
+      "brightWhite": "#ECEAE4"
+    }
+  ],
+  "profiles": [
+    {
+      "guid": "{7f5e7a11-0b1d-5d4a-9c3e-0de11a5ad0e7}",
+      "name": "The Seventh Shadow",
+      "commandline": "__SHELL__",
+      "colorScheme": "The Seventh Shadow",
+      "cursorShape": "bar",
+      "font": { "face": "__FONT__" },
+      "backgroundImage": "__BACKGROUND__",
+      "backgroundImageOpacity": 0.14,
+      "backgroundImageStretchMode": "uniformToFill",
+      "backgroundImageAlignment": "right",
+      "padding": "12",
+      "tabColor": "#14171B"
+    }
+  ]
+}
